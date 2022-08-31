@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    height: 88px;
+    text-align: center;
+    padding-top:10px;
+    background-color: #ffffff;
+}
+.logo-titulo{
+    font-family: 'Silkscreen', cursive;
+    font-size: 0.9rem;
+    margin-top: 1px;
+    color: #000000;
+}
+.menu{
+    width: 100%;
+    height: 30px;
+    background-color: #E9D2F5;
+    text-align: center;
+    color: #000000;
+}
+.submenu a{
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    padding-left: 60px;
+    font-size: 1.2rem;
+}
+.imagem{
+    margin-top: 150px;
+    text-align: center;
+    position: relative;
+}
+.texto-imagem{
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 1600px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+.maos{
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+#triangulo-amarelo {
+    width: 0; 
+    height: 0;
+    margin-top: -5px;
+    border-bottom: 300px solid transparent; 
+    border-right:2560px solid #C1E8FB;
+    position:absolute;
+}
+#triangulo-azul{
+    width: 0; 
+    height: 0;
+    border-bottom: 200px solid transparent; 
+    border-right:2560px solid #FBF4A3;
+    position:absolute;
+  }
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    margin-top: 110px;
+    margin-left: 130px;
+  }
+#texto{
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    margin-top: 90px;
+    margin-left: 70px;
+    width: 750px;
+  }
+.balao{
+   margin-left: 1500px;
+   margin-top: -310px;
+ }
+ #botoes{
+    text-align: center;
+    margin-top: 130px;
+    font-family: 'Outfit', sans-serif;
+    justify-content: space-around;
+  
+}
+#caracteristicas{
+    width: 150px;
+    height: 60px;
+    background-color: #C1E8FB;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-left: 105px ;
+    border: none;
+    cursor: pointer;
+}
+#texto-dois-e-tres{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+}
+.texto-tres{
+    text-align: center;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+#triangulos-pai{
+    position: relative;
+}
+#triangulo-rosa{
+    width: 0; 
+    height: 0; 
+    border-top: 300px solid transparent;
+    border-bottom: -100px solid transparent;
+    border-left: 2560px solid #F2EAF7;
+    position:absolute;
+}
+.texto-div{
+    position: absolute;
+    padding-top: 190px;
+    padding-left: 100px;
+}
+.baixar-app{
+    margin-right: 500px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+}
+.retangulos-pai{
+    margin-top: 300px;
+}
+#retangulo{
+    width: 100%;
+    height: 600px;
+    background-color: #E1E6EB;
+    padding-top: 30px;
+    margin-top: 300px;
+}
+#app{
+    display: flex;
+    width: 2450px;
+    height: 550px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    border: 6px solid  #ffffff;
+}
+.swiper{
+    width: 950px;
+    position: relative;
+}
+.swiper-button-next{
+    margin-top: 1800px;
+    margin-right: 100px;
+    color: #000000;
+}
+.swiper-button-prev{
+    align-items: center;
+    margin-top: 1800px;
+    margin-left: 100px;
+    color: #000000;
+}
+.card .imagem-card{
+    width: 300px;
+    height: 500px;
+    margin-top: 20px;
+}
+.card .imagem-card img{
+    width: 100%;
+    height: 100%;
+}
+.imagem-card{
+    margin: 80px;
+}
+.card .card-carrossel{
+    display: flex;
+    position: absolute;
+}
+#sobre-nos-pai{
+    position: relative;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 1500px;
+    background: hsla(277, 45%, 94%, 1);
+    background: linear-gradient(270deg, hsla(277, 45%, 94%, 1) 64%, hsla(0, 0%, 100%, 1) 98%);
+    background: -moz-linear-gradient(270deg, hsla(277, 45%, 94%, 1) 64%, hsla(0, 0%, 100%, 1) 98%);
+    background: -webkit-linear-gradient(270deg, hsla(277, 45%, 94%, 1) 64%, hsla(0, 0%, 100%, 1) 98%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F2EAF7", endColorstr="#FFFFFF", GradientType=1 );
+    padding-left: 500px;
+}
+.imagem-div{
+    position: absolute;
+    padding-top: 100px;
+}
+.titulo-sobre-nos{
+    position: absolute;
+    padding-top: 295px;
+    padding-left: 150px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+}
+.quem-somos{
+    position: absolute;
+    padding-left: 1100px;
+    padding-top: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+}
+#texto-conteudo{
+    position: absolute;
+    width: 500px;
+    margin-left: 1000px;
+    margin-top:300px ;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+}
+.detalhes{
+    position: absolute;
+    width: 67px;
+    height: 700px;
+    background-color: #ffffff;
+    margin-left: 1600px;
+    margin-top: 100px;
+}
+.detalhes-dois{
+    position: absolute;
+    width: 1400px;
+    height: 67px;
+    background-color: #ffffff;
+    margin-top: 733px ;
+    margin-left: 200px;
+}
+.comentarios{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    margin-top: 870px;
+    text-align: center;
+    display: flex;
+}
+.nome-um{
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+}
+.comentario-um{
+    padding-top: 100px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+}
+#imagem-contatos{
+    position: absolute;
+    margin-top: 1600px;
+    margin-left: 500px;
+}
+.img{
+   margin-left: 250px;
+}
+#contatos{
+    width: 1500px;
+    height: 600px;
+    background-color: #C1E8FB;
+}
+#redes-sociais{
+    width: 440px;
+    height: 600px;
+    background-color: #DDF0FA;
+    margin-left: 50px;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contatos-titulo{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 30px;
+}
+#instagram{
+    padding-left: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+.imagem-social{
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+}
+.nome-social{
+    padding-left: 10px;
+    font-size: 25px;
+} 
+.mensagem{
+    height: 150px;
+    flex-direction: row;
+}
+.inputs{
+    padding-left: 750px;
+    margin-top: -450px;
+    font-family: 'Mandali', sans-serif;
+    font-size: 25px;
+}
+input{
+    width: 400px;
+    height: 60px;
+    border: 2px solid #CCB7EF;
+    border-radius: 10px;
+    font-family: 'Mandali', sans-serif;
+    font-size: 24px;
+    padding-left: 10px;
+}
+.enviar-botao{
+    width: 200px;
+    height: 70px;
+    background-color: #DDF0FA;
+    font-size: 24px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    margin-left: 950px ;
+}
+
+footer{
+    position: absolute;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 2430px;
+    margin-left: 1150px;
+}
+
