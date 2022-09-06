@@ -37,7 +37,7 @@ header{
 }
 .imagem{
     margin-top: 150px;
-    text-align: center;
+    text-align:left;
     position: relative;
 }
 .texto-imagem{
@@ -46,6 +46,14 @@ header{
     margin-left: 1600px;
     font-family: 'Outfit', sans-serif;
     font-weight: bold;
+    font-size: 60px;
+}
+.texto-imagem-dois{
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 1600px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 50;
     font-size: 60px;
 }
 .maos{
@@ -90,7 +98,10 @@ h1{
     margin-top: 130px;
     font-family: 'Outfit', sans-serif;
     justify-content: space-around;
-  
+}
+#caracteristicas:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 #caracteristicas{
     width: 150px;
@@ -155,7 +166,6 @@ h1{
 }
 .swiper{
     width: 950px;
-    position: relative;
 }
 .swiper-button-next{
     margin-top: 1800px;
@@ -210,15 +220,15 @@ h1{
 }
 .quem-somos{
     position: absolute;
-    padding-left: 1100px;
-    padding-top: 100px;
+    padding-left: 1050px;
+    padding-top: 180px;
     font-family: 'Oswald', sans-serif;
     font-size: 35px;
 }
 #texto-conteudo{
     position: absolute;
-    width: 500px;
-    margin-left: 1000px;
+    width: 600px;
+    margin-left: 900px;
     margin-top:300px ;
     font-family: 'Outfit', sans-serif;
     font-size: 25px;
@@ -324,6 +334,10 @@ input{
     border: none;
     cursor: pointer;
     margin-left: 950px ;
+}
+.enviar-botao:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 footer{
