@@ -36,7 +36,7 @@ html {
     text-decoration: none;
     font-family: 'Outfit', sans-serif;
     padding-left: 60px;
-    font-size: 1.5rem;
+    font-size: min(1.5rem, 3vw);
 }
 
 a:hover{
@@ -49,25 +49,8 @@ a:hover{
     text-align:left;
     position: relative;
 }
-.texto-imagem{
-    position: absolute;
-    margin-top: -600px;
-    margin-left: 1600px;
-    font-family: 'Outfit', sans-serif;
-    font-weight: bold;
-    font-size: 60px;
-}
-.texto-imagem-dois{
-    position: absolute;
-    margin-top: -370px;
-    margin-left: 1600px;
-    font-family: 'Outfit', sans-serif;
-    font-weight: 50;
-    font-size: 60px;
-}
 .maos{
     width: 100%;
-    height: 800px;
     position: relative;
 }
 #triangulo-amarelo {
@@ -87,13 +70,13 @@ a:hover{
   }
 h1{
     font-family: 'Oswald', sans-serif;
-    font-size: 70px;
+    font-size: min(70px, 5vw);
     margin-top: 110px;
     margin-left: 130px;
   }
 #texto{
     font-family: 'Outfit', sans-serif;
-    font-size: 25px;
+    font-size: min(25px, 3vw);
     margin-top: 90px;
     margin-left: 70px;
     width: 750px;
@@ -128,7 +111,7 @@ h1{
     text-align: center;
     margin-top: 100px;
     font-family: 'Outfit', sans-serif;
-    font-size: 30px;
+    font-size: min(30px, 2.5vw);
 }
 .texto-tres{
     text-align: center;
@@ -150,12 +133,11 @@ h1{
 .texto-div{
     position: absolute;
     padding-top: 190px;
-    padding-left: 100px;
+    padding-left: 80px;
 }
 .baixar-app{
-    margin-right: 500px;
     font-family: 'Oswald', sans-serif;
-    font-size: 70px;
+    font-size: min(70px, 5vw);
 }
 .retangulos-pai{
     margin-top: 300px;
@@ -169,9 +151,9 @@ h1{
 }
 #app{
     display: flex;
-    width: 2450px;
+    width: 96%;
     height: 550px;
-    margin-left: 50px;
+    margin-left: 20px;
     box-sizing: border-box;
     border: 6px solid  #ffffff;
 }
@@ -216,22 +198,27 @@ h1{
     background: -moz-linear-gradient(270deg, hsla(277, 45%, 94%, 1) 64%, hsla(0, 0%, 100%, 1) 98%);
     background: -webkit-linear-gradient(270deg, hsla(277, 45%, 94%, 1) 64%, hsla(0, 0%, 100%, 1) 98%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F2EAF7", endColorstr="#FFFFFF", GradientType=1 );
-    padding-left: 500px;
+    
+}
+#img-sobre{
+    width: 580px;
+    height: 500px;
 }
 .imagem-div{
     position: absolute;
     padding-top: 100px;
+    padding-left: 500px;
 }
 .titulo-sobre-nos{
     position: absolute;
     padding-top: 295px;
-    padding-left: 150px;
+    padding-left: 650px;
     font-family: 'Oswald', sans-serif;
-    font-size: 60px;
+    font-size: min(60px, 5vw);
 }
 .quem-somos{
     position: absolute;
-    padding-left: 1050px;
+    margin-left: 1350px;
     padding-top: 180px;
     font-family: 'Oswald', sans-serif;
     font-size: 35px;
@@ -239,7 +226,7 @@ h1{
 #texto-conteudo{
     position: absolute;
     width: 600px;
-    margin-left: 900px;
+    margin-left: 1200px;
     margin-top:300px ;
     font-family: 'Outfit', sans-serif;
     font-size: 25px;
@@ -250,7 +237,7 @@ h1{
     width: 67px;
     height: 700px;
     background-color: #ffffff;
-    margin-left: 1600px;
+    margin-left: 2100px;
     margin-top: 100px;
 }
 .detalhes-dois{
@@ -259,7 +246,7 @@ h1{
     height: 67px;
     background-color: #ffffff;
     margin-top: 733px ;
-    margin-left: 200px;
+    margin-left: 700px;
 }
 .comentarios{
     position: absolute;
@@ -274,7 +261,7 @@ h1{
     font-size: 24px;
 }
 .comentario-um{
-    padding-top: 100px;
+    padding-top: 30px;
     font-family: 'Outfit', sans-serif;
     font-size: 24px;
 }
@@ -358,4 +345,145 @@ footer{
     margin-top: 2430px;
     margin-left: 1150px;
 }
+
+/* responsividade */
+
+@media (max-width: 1000px){
+    #caracteristicas{
+        margin-left: 40px ;
+        
+    }
+    #retangulo{
+        width: 100%;
+        height: 500px;
+        
+    }
+    .card .imagem-card{
+        width: 250px;
+        height: 400px;
+        margin-top: 20px;
+    }
+    #app{
+        width: 96%;
+        height: 450px;
+        margin-left: 20px;
+       
+    }
+}
+@media (max-width: 900px){
+    #caracteristicas{
+        margin-left: 10px ;
+        
+    }
+    #texto{
+        width: 500px;
+    }
+    .submenu a{
+        padding-left: 20px;
+        
+    }
+    #img-sobre{
+        width: 100px;
+        height: 200px;
+    }
+    #empresa{
+        margin-left: -450px ;
+    }
+    #texto-conteudo{
+        padding-right: 100px;
+       
+    }
+    #conteudo{
+        margin-left: -150px;
+    }
+    #container-detalhes{
+        margin-left: -320px;
+    }
+    #imagem-contatos{
+        padding-left: -500px;
+    }
+    
+}
+@media (max-width: 800px){
+    #retangulo{
+        height: 400px;
+    }
+    .card .imagem-card{
+        width: 200px;
+        height: 300px;
+        margin-top: 20px;
+    }
+    #app{
+        height: 350px;
+      }
+}
+@media (max-width: 1900px){
+   .balao{
+        display: none;
+    }
+    #sobre-nos-pai{
+        height: 1200px;
+    
+    }
+    .titulo-sobre-nos{
+        padding-top: 250px;
+        margin-left: -20px;
+        font-size: min(50px, 5vw);
+    }
+    #img-sobre{
+        width: 500px;
+        height: 400px;
+    }
+    #empresa{
+        margin-left: -150px ;
+    }
+    #texto-conteudo{
+        padding-right: 100px;
+       
+    }
+    #conteudo{
+        margin-left: -150px;
+    }
+    #container-detalhes{
+        margin-left: -220px;
+    }
+}
+
+
+@media (max-width: 2300px){
+    .imagem-div{
+        padding-left: 200px;
+    }
+    .titulo-sobre-nos{
+        padding-left: 350px;
+        
+    }
+    .quem-somos{
+        margin-left: 1100px;
+        
+    }
+    #texto-conteudo{
+        margin-left: 950px;
+       
+    }
+    .detalhes{
+        margin-left: 1700px;
+      
+    }
+    .detalhes-dois{
+        margin-left: 300px;
+    }
+  
+    .swiper-button-next{
+        display: none;
+    }
+    .swiper-button-prev{
+        display: none;
+        
+    }
+}
+    
+
+
+
 
