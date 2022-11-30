@@ -809,6 +809,7 @@ footer{
     }
     #app{
         height: 150px;
+        margin-left: 10px;
     }
     .card .imagem-card{
         width: 100px;
@@ -874,6 +875,63 @@ footer{
         margin-top: 500px;
     }
     
+}
+@media screen and (max-width: 320px){
+    #retangulo{
+        height: 200px;
+        
+    }
+    #app{
+        height: 150px;
+        margin-left: 10px;
+    }
+    .card .imagem-card{
+        width: 80px;
+        height: 130px;
+        margin-top: 3px;
+    }
+    .imagem-card{
+        margin: -10px;
+        margin-left: 140px;
+    }
+    .comentario-um{
+        font-size: 11px;
+    }
+    #img-sobre{
+        width: 100px;
+        height: 100px;
+        margin-left: -290px;
+    }
+    .titulo-sobre-nos{
+        padding-top: 140px;
+        margin-left: -325px;
+        font-size: min(17px, 5vw);
+    }
+    #empresa{
+        margin-left: -1850px;
+        font-size: 15px;
+    }
+    #texto-conteudo{
+        margin-top: 210px;
+        margin-left: 190px ;
+        font-size: 10px;
+        width: 150px;
+       
+    }
+    #container-detalhes{
+        margin-left: -1430px;
+    }
+    .detalhes{
+        width: 5px;
+        height: 255px;
+    }
+    .detalhes-dois{
+        width: 250px;
+        height: 5px;
+        margin-left: 1450px;
+        margin-top: 350px;
+    }
+
 }
 
 

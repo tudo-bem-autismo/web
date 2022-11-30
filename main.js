@@ -17,7 +17,7 @@ function tratamentos(){
     + "<br> O ABA, por exemplo, é uma terapia que consiste em ajudar a pessoa a como reagir em diferentes situações fora do ambiente  "
     + "<br> terapêutico. O TEACHH (Tratamento e Educaçãopara Autistas e Crianças com Déficits Relacionados à Comunicação), é um , "
     + "<br> método para autismo de técnica comportamentalvisando a aprendizagem, tanto em casa como em ambiente escolar.";
-}
+} 
 
 
 
