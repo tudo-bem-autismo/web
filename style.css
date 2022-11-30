@@ -56,15 +56,15 @@ a:hover{
     width: 0; 
     height: 0;
     margin-top: -5px;
-    border-bottom: 300px solid transparent; 
-    border-right:2560px solid #C1E8FB;
+    border-bottom: 15vh solid transparent; 
+    border-right:99.1vw solid #C1E8FB;
     position:absolute;
 }
 #triangulo-azul{
     width: 0; 
     height: 0;
-    border-bottom: 200px solid transparent; 
-    border-right:2560px solid #FBF4A3;
+    border-bottom: 10vh solid transparent; 
+    border-right:99.1vw solid #FBF4A3;
     position:absolute;
   }
 h1{
@@ -124,9 +124,8 @@ h2{
 #triangulo-rosa{
     width: 0; 
     height: 0; 
-    border-top: 300px solid transparent;
-    border-bottom: -100px solid transparent;
-    border-left: 2560px solid #F2EAF7;
+    border-top: 295px solid transparent;
+    border-left: 99.1vw solid #F2EAF7;
     position:absolute;
 }
 .texto-div{
@@ -275,7 +274,6 @@ h2{
 #contatos{
     width: 1500px;
     height: 600px;
-    
     background-color: #C1E8FB;
 }
 #redes-sociais{
@@ -378,6 +376,9 @@ footer{
         display: none;
         
     }
+    #imagem-contatos{
+        left: 15%;
+    }
 }
 @media (max-width: 1900px){
     .balao{
@@ -412,8 +413,23 @@ footer{
      .detalhes-dois{
         width: 1400px;
         margin-left: 350px;
-
     }
+    #imagem-contatos{
+        left: 9%;
+    }
+ }
+ @media (max-width: 1780px){
+    #imagem-contatos{
+        left: 4%;
+    }
+
+ }
+ 
+ @media (max-width: 1650px){
+    #imagem-contatos{
+        left: 2%;
+    }
+
  }
  @media (max-width: 1600px){
     .titulo-sobre-nos{
@@ -463,6 +479,24 @@ footer{
      
 
  }
+ @media (max-width: 1570px){
+    #imagem-contatos{
+        left: 9%;
+    }
+    #contatos{
+        width: 1250px;
+    }
+    .img{
+        margin-left: 150px;
+     }
+}
+ @media (max-width: 1480px){
+    #imagem-contatos{
+        left: 5%;
+    }
+
+
+ }
 @media (max-width: 1400px){
     .titulo-sobre-nos{
         padding-top: 240px;
@@ -500,6 +534,29 @@ footer{
         height: 450px;
         margin-top: 800px;
     }
+    #imagem-contatos{
+        left: 3%;
+    }
+
+}
+@media (max-width: 1350px){
+    #contatos{
+        width: 1050px;
+    }
+    .inputs{
+        padding-left: 500px;
+       
+    }
+    .enviar-botao{
+        margin-left: 700px ;
+    }
+    #imagem-contatos{
+        left: 9%;
+    }
+    .img{
+        margin-left: 60px;
+     }
+
 
 }
 @media (max-width: 1225px){
@@ -543,6 +600,14 @@ footer{
         height: 450px;
         margin-top: 700px;
     }
+    #imagem-contatos{
+        left: 4%;
+    }
+
+}
+@media (max-width: 1150px){
+    
+
 
 }
 
@@ -756,7 +821,7 @@ footer{
     }
     .imagem-card{
         margin: 50px;
-        margin-left: 50px;
+        margin-left: 90px;
     }
     #img-sobre{
         width: 150px;
@@ -930,6 +995,10 @@ footer{
         height: 5px;
         margin-left: 1450px;
         margin-top: 350px;
+    }
+    .submenu a{
+        font-size: 13.5px;
+        padding-left: 3px;
     }
 
 }
