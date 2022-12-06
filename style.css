@@ -343,7 +343,6 @@ footer{
     margin-top: 2430px;
     left: 40%;
 }
-
 /* responsividade */
 @media (max-width: 2300px){
     .imagem-div{
@@ -351,25 +350,20 @@ footer{
     }
     .titulo-sobre-nos{
         padding-left: 350px;
-        
     }
     .quem-somos{
         margin-left: 1100px;
-        
     }
     #texto-conteudo{
         margin-left: 950px;
-       
     }
     .detalhes{
         margin-left: 1700px;
-      
     }
     .detalhes-dois{
         margin-left: 300px;
     }
-  
-    .swiper-button-next{
+   .swiper-button-next{
         display: none;
     }
     .swiper-button-prev{
@@ -402,8 +396,7 @@ footer{
      }
      #texto-conteudo{
          padding-right: 100px;
-        
-     }
+    }
      #conteudo{
          margin-left: -150px;
      }
@@ -422,16 +415,16 @@ footer{
     #imagem-contatos{
         left: 4%;
     }
-
- }
- 
- @media (max-width: 1650px){
+}
+@media (max-width: 1650px){
     #imagem-contatos{
         left:2%;
         margin-top: 1500px;
     }
-
- }
+    footer{
+        margin-top: 2320px;
+    }
+}
  @media (max-width: 1600px){
     .titulo-sobre-nos{
         padding-top: 240px;
@@ -465,7 +458,6 @@ footer{
         height: 50px;
         margin-left: 550px;
         margin-top: 650px;
-
     }
     #container-detalhes{
         margin-left: -420px;
@@ -483,6 +475,10 @@ footer{
         left: 9%;
         margin-top: 1450px;
     }
+    footer{
+        margin-top: 2280px;
+       
+    }
     #contatos{
         width: 1250px;
     }
@@ -494,9 +490,7 @@ footer{
     #imagem-contatos{
         left: 5%;
     }
-
-
- }
+}
 @media (max-width: 1400px){
     .titulo-sobre-nos{
         padding-top: 240px;
@@ -537,7 +531,6 @@ footer{
     #imagem-contatos{
         left: 3%;
     }
-
 }
 @media (max-width: 1350px){
     #contatos{
@@ -557,8 +550,9 @@ footer{
     .img{
         margin-left: 60px;
      }
-
-
+     footer{
+        margin-top: 2230px;
+    }
 }
 @media (max-width: 1225px){
     .titulo-sobre-nos{
@@ -605,7 +599,10 @@ footer{
         left:4%;
         margin-top: 1350px;
     }
-
+    footer{
+        margin-top: 2190px;
+        left: 40%;
+    }
 }
 @media (max-width: 1150px){
     #contatos{
@@ -648,14 +645,16 @@ footer{
         font-family: 'Oswald', sans-serif;
         padding-left: 15px;
     }
+    footer{
+        margin-top: 2130px;
+        left: 35%;
+    }
     input{
         width: 300px;
         height: 50px;
         font-size: 20px;
-        
     }
 }
-
 @media (max-width: 1000px){
     #caracteristicas{
         margin-left: 30px;
@@ -664,12 +663,15 @@ footer{
     #retangulo{
         width: 100%;
         height: 500px;
-        
     }
     .card .imagem-card{
         width: 250px;
         height: 400px;
         margin-top: 20px;
+    }
+    .imagem-card{
+        margin: -10px;
+        margin-left: 140px;
     }
     #app{
         width: 96%;
@@ -707,9 +709,11 @@ footer{
         margin-left: -86px;
         align-items: center;
      }
-}
-
-@media (max-width: 935px){  
+}  
+@media (max-width: 935px){ 
+    .imagem-card{
+        margin-left: 100px;
+    } 
     #contatos{
         width: 650px;
     }
@@ -754,14 +758,15 @@ footer{
         width: 250px;
         height: 45px;
         font-size: 20px;
-        
+    }
+    footer{
+        margin-top: 2090px;
+        left: 35%;
     }
 }
-
 @media (max-width: 900px){
     #caracteristicas{
         margin-left: 10px ;
-        
     }
     h2{
         width: 500px;
@@ -780,7 +785,6 @@ footer{
         height: 230px;
         margin-left: -160px;
     }
-   
     #empresa{
         margin-left: -1150px;
         font-size: 30px;
@@ -819,9 +823,16 @@ footer{
         height: 450px;
         margin-top: 700px;
     }
-    
+    footer{
+        margin-top: 2040px;
+        left: 30%;
+    }
 }
 @media (max-width: 850px){
+    .imagem-card{
+        margin: -10px;
+        margin-left: 85px;
+    }
     #contatos{
         width: 550px;
         height: 550px;
@@ -870,9 +881,11 @@ footer{
         width: 200px;
         height: 40px;
         font-size: 17px;
-        
     }
-    
+    footer{
+        margin-top: 1900px;
+        left: 35%;
+    }
 }
 @media (max-width: 800px){
     #retangulo{
@@ -904,6 +917,10 @@ footer{
     .comentarios{
         height: 450px;
         margin-top: 700px;
+    }
+    .imagem-card{
+        margin: -80px;
+        margin-left: 150px;
     }
 }
 @media (max-width: 770px){
@@ -962,7 +979,10 @@ footer{
     #imagem-contatos{
         margin-top: 1100px;
     }
-
+    footer{
+        margin-top: 1800px;
+        left: 30%;
+    }
 }
 @media (max-width: 710px){
     #imagem-contatos{
@@ -973,7 +993,6 @@ footer{
         margin-left: -40px;
         height: 130px;
      }
-
 }
 @media (max-width: 670px){
     #retangulo{
@@ -983,12 +1002,12 @@ footer{
         height: 200px;
     }
     .card .imagem-card{
-        width: 140px;
+        width: 130px;
         height: 180px;
         margin-top: 5px;
     }
     .imagem-card{
-        margin: 50px;
+        margin: 10px;
         margin-left: 90px;
     }
     #img-sobre{
@@ -1081,10 +1100,12 @@ footer{
         width: 150px;
         height: 35px;
         font-size: 10px;
-        
+    }
+    footer{
+        margin-top: 1670px;
+        left: 25%;
     }
 }
-
 @media screen and (max-width: 550px){
     #retangulo{
         height: 200px;
@@ -1100,7 +1121,7 @@ footer{
         margin-top: -1px;
     }
     .imagem-card{
-        margin: 35px;
+        margin: 10px;
         margin-left: 70px;
     }
     #caracteristicas{
@@ -1167,7 +1188,10 @@ footer{
      #imagem-contatos{
         margin-top: 950px;
     }
-    
+    footer{
+        margin-top: 1580px;
+        left: 25%;
+    }
 }
 @media screen and (max-width: 515px){
     #imagem-contatos{
@@ -1176,22 +1200,125 @@ footer{
     #contatos{
         width: 410px;
     }
-
+    footer{
+        left: 20%;
+    }
 }
-@media screen and (max-width: 480px) and (max-width:380px){
-    #imagem-contatos{
-        left: 1%;
-    }
-    #retangulo{
-        height: 210px;
-        
-    }
+@media screen and (max-width: 480px){
     .imagem-card{
-        margin: -10px;
-        margin-left: 215px;
+        margin: -40px;
+        margin-left: 220px;
     }
-  
-
+    #img-sobre{
+        width: 100px;
+        height: 100px;
+        margin-left: -290px;
+    }
+    .titulo-sobre-nos{
+        padding-top: 140px;
+        margin-left: -325px;
+        font-size: min(17px, 5vw);
+    }
+    #empresa{
+        margin-left: -1850px;
+        font-size: 15px;
+    }
+    #texto-conteudo{
+        margin-top: 210px;
+        margin-left: 240px ;
+        font-size: 10px;
+        width: 150px;
+       
+    }
+    #container-detalhes{
+        margin-left: -1390px;
+    }
+    .detalhes{
+        width: 10px;
+        height: 255px;
+    }
+    .detalhes-dois{
+        width: 250px;
+        height: 10px;
+        margin-left: 1459px;
+        margin-top: 350px;
+    }
+    #contatos{
+        width: 300px;
+        height: 390px;
+    }
+    .inputs{
+        padding-left: 170px;
+        font-size: 13px;
+        padding-top: 120px;
+       
+    }
+    .enviar-botao{
+        margin-left: 180px;
+        width: 90px;
+        height: 30px;
+        font-size: 15px;
+    }
+    #imagem-contatos{
+        left:15%;
+        margin-top: 920px;
+    }
+    .img{
+        margin-left: 5px;
+        height: 60px;
+     }
+     #redes-sociais{
+        width: 165px;
+        height: 390px;
+        margin-left: 5px;
+    }
+    .imagem-social{
+        width: 13px;
+        height: 13px;
+        margin-top: 30px;
+    }
+    .nome-social{
+        padding-left: 3px;
+        font-size: 12px;
+    } 
+    #instagram{
+        padding-left: 5px;
+        font-family: 'Outfit', sans-serif;
+    }
+    .contatos-titulo{
+        font-size: 13px;
+        font-family: 'Oswald', sans-serif;
+        padding-left: 5px;
+    }
+    input{
+        width: 120px;
+        height: 30px;
+        font-size: 8px;
+    }
+    footer{
+        margin-top: 1400px;
+        left: 25%;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 440px){
+    .imagem-card{
+        margin: -70px;
+        margin-left: 210px;
+    }
+    .comentario-um{
+        font-size: 14px;
+    }
+    footer{
+        left: 20%;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 404px){
+    .imagem-card{
+        margin: -70px;
+        margin-left: 190px;
+    }
 }
 @media screen and (max-width: 380px){
     #retangulo{
@@ -1203,12 +1330,12 @@ footer{
         margin-left: 10px;
     }
     .card .imagem-card{
-        width: 70px;
+        width: 90px;
         height: 130px;
         margin-top: 3px;
     }
     .imagem-card{
-        margin: -10px;
+        margin: -70px;
         margin-left: 175px;
     }
     .comentario-um{
@@ -1303,18 +1430,30 @@ footer{
         width: 100px;
         height: 30px;
         font-size: 8px;
-        
     }
-   
+    footer{
+        margin-top: 1400px;
+        left: 20%;
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 350px){
     #imagem-contatos{
         left:3%;
         margin-top: 920px;
     }
-
+    
+    .imagem-card{
+        margin: -80px;
+        margin-left: 170px;
+    }
 }
-
+@media screen and (max-width: 340px){
+    .imagem-card{
+        margin: -80px;
+        margin-left: 160px;
+    }
+}
 @media screen and (max-width: 320px){
     #retangulo{
         height: 200px;
@@ -1330,8 +1469,8 @@ footer{
         margin-top: 3px;
     }
     .imagem-card{
-        margin: -10px;
-        margin-left: 140px;
+        margin: -60px;
+        margin-left: 150px;
     }
     .comentario-um{
         font-size: 11px;
@@ -1355,7 +1494,6 @@ footer{
         margin-left: 190px ;
         font-size: 10px;
         width: 150px;
-       
     }
     #container-detalhes{
         margin-left: -1430px;
@@ -1378,7 +1516,11 @@ footer{
         left:1%;
         margin-top: 920px;
     }
-
+    footer{
+        margin-top: 1400px;
+        left: 19%;
+        font-size: 10px;
+    }
 }
 
 
