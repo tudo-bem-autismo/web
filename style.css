@@ -427,7 +427,8 @@ footer{
  
  @media (max-width: 1650px){
     #imagem-contatos{
-        left: 2%;
+        left:2%;
+        margin-top: 1500px;
     }
 
  }
@@ -476,12 +477,11 @@ footer{
         height: 450px;
         margin-top: 800px;
     }
-     
-
- }
+}
  @media (max-width: 1570px){
     #imagem-contatos{
         left: 9%;
+        margin-top: 1450px;
     }
     #contatos{
         width: 1250px;
@@ -551,7 +551,8 @@ footer{
         margin-left: 700px ;
     }
     #imagem-contatos{
-        left: 9%;
+        left:9%;
+        margin-top: 1400px;
     }
     .img{
         margin-left: 60px;
@@ -601,14 +602,58 @@ footer{
         margin-top: 700px;
     }
     #imagem-contatos{
-        left: 4%;
+        left:4%;
+        margin-top: 1350px;
     }
 
 }
 @media (max-width: 1150px){
-    
-
-
+    #contatos{
+        width: 800px;
+    }
+    .inputs{
+        padding-left: 410px;
+       
+    }
+    .enviar-botao{
+        margin-left: 500px ;
+    }
+    #imagem-contatos{
+        left:12%;
+        margin-top: 1300px;
+    }
+    .img{
+        margin-left: -86px;
+        align-items: center;
+     }
+     #redes-sociais{
+        width: 350px;
+        height: 600px;
+    }
+    .imagem-social{
+        width: 30px;
+        height: 30px;
+        margin-top: 30px;
+    }
+    .nome-social{
+        padding-left: 10px;
+        font-size: 20px;
+    } 
+    #instagram{
+        padding-left: 15px;
+        font-family: 'Outfit', sans-serif;
+    }
+    .contatos-titulo{
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+        padding-left: 15px;
+    }
+    input{
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+        
+    }
 }
 
 @media (max-width: 1000px){
@@ -655,9 +700,64 @@ footer{
         height: 450px;
         margin-top: 750px;
     }
-
-    
+    #imagem-contatos{
+        left: 6%;
+    }
+    .img{
+        margin-left: -86px;
+        align-items: center;
+     }
 }
+
+@media (max-width: 935px){  
+    #contatos{
+        width: 650px;
+    }
+    .inputs{
+        padding-left: 280px;
+       
+    }
+    .enviar-botao{
+        margin-left: 320px ;
+    }
+    #imagem-contatos{
+        left: 12%;
+    }
+    .img{
+        margin-left: -70px;
+        height: 170px;
+     }
+     #redes-sociais{
+        width: 250px;
+        height: 600px;
+        margin-left: 20px;
+    }
+    .imagem-social{
+        width: 25px;
+        height: 25px;
+        margin-top: 30px;
+    }
+    .nome-social{
+        padding-left: 10px;
+        font-size: 17px;
+    } 
+    #instagram{
+        padding-left: 15px;
+        font-family: 'Outfit', sans-serif;
+    }
+    .contatos-titulo{
+        font-size: 23px;
+        font-family: 'Oswald', sans-serif;
+        padding-left: 15px;
+    }
+    input{
+        width: 250px;
+        height: 45px;
+        font-size: 20px;
+        
+    }
+}
+
 @media (max-width: 900px){
     #caracteristicas{
         margin-left: 10px ;
@@ -700,6 +800,7 @@ footer{
     }
     #imagem-contatos{
         padding-left: -500px;
+        margin-top: 1250px;
     }
     .detalhes{
         height: 400px;
@@ -717,6 +818,59 @@ footer{
     .comentarios{
         height: 450px;
         margin-top: 700px;
+    }
+    
+}
+@media (max-width: 850px){
+    #contatos{
+        width: 550px;
+        height: 550px;
+    }
+    .inputs{
+        padding-left: 280px;
+        font-size: 18px;
+       
+    }
+    .enviar-botao{
+        margin-left: 320px;
+        width: 150px;
+    }
+    #imagem-contatos{
+        left:12%;
+        margin-top: 1200px;
+    }
+    .img{
+        margin-left: -40px;
+        height: 130px;
+     }
+     #redes-sociais{
+        width: 250px;
+        height: 550px;
+        margin-left: 20px;
+    }
+    .imagem-social{
+        width: 25px;
+        height: 25px;
+        margin-top: 30px;
+    }
+    .nome-social{
+        padding-left: 10px;
+        font-size: 17px;
+    } 
+    #instagram{
+        padding-left: 15px;
+        font-family: 'Outfit', sans-serif;
+    }
+    .contatos-titulo{
+        font-size: 23px;
+        font-family: 'Oswald', sans-serif;
+        padding-left: 15px;
+    }
+    input{
+        width: 200px;
+        height: 40px;
+        font-size: 17px;
+        
     }
     
 }
@@ -805,6 +959,20 @@ footer{
         height: 450px;
         margin-top: 600px;
     }
+    #imagem-contatos{
+        margin-top: 1100px;
+    }
+
+}
+@media (max-width: 710px){
+    #imagem-contatos{
+        left: 8%;
+        margin-top: 1100px;
+    }
+    .img{
+        margin-left: -40px;
+        height: 130px;
+     }
 
 }
 @media (max-width: 670px){
@@ -864,7 +1032,57 @@ footer{
         height: 450px;
         margin-top: 550px;
     }
-
+    #contatos{
+        width: 450px;
+        height: 500px;
+    }
+    .inputs{
+        padding-left: 230px;
+        font-size: 15px;
+        padding-top: 50px;
+       
+    }
+    .enviar-botao{
+        margin-left: 280px;
+        width: 100px;
+    }
+    #imagem-contatos{
+        left: 12%;
+        margin-top: 1050px;
+    }
+    .img{
+        margin-left: -20px;
+        height: 100px;
+     }
+     #redes-sociais{
+        width: 220px;
+        height: 500px;
+        margin-left: 10px;
+    }
+    .imagem-social{
+        width: 20px;
+        height: 20px;
+        margin-top: 30px;
+    }
+    .nome-social{
+        padding-left: 10px;
+        font-size: 15px;
+    } 
+    #instagram{
+        padding-left: 5px;
+        font-family: 'Outfit', sans-serif;
+    }
+    .contatos-titulo{
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+        padding-left: 15px;
+    }
+    input{
+        width: 150px;
+        height: 35px;
+        font-size: 10px;
+        
+    }
 }
 
 @media screen and (max-width: 550px){
@@ -936,11 +1154,167 @@ footer{
         font-size: 15px;
     }
     .comentarios{
-        height: 370px;
+        height: 390px;
         margin-top: 500px;
+    }
+    #imagem-contatos{
+        left: 5%;
+    }
+    .img{
+        margin-left: -20px;
+        height: 100px;
+     }
+     #imagem-contatos{
+        margin-top: 950px;
     }
     
 }
+@media screen and (max-width: 515px){
+    #imagem-contatos{
+        left: 5%;
+    }
+    #contatos{
+        width: 410px;
+    }
+
+}
+@media screen and (max-width: 480px) and (max-width:380px){
+    #imagem-contatos{
+        left: 1%;
+    }
+    #retangulo{
+        height: 210px;
+        
+    }
+    .imagem-card{
+        margin: -10px;
+        margin-left: 215px;
+    }
+  
+
+}
+@media screen and (max-width: 380px){
+    #retangulo{
+        height: 210px;
+        
+    }
+    #app{
+        height: 150px;
+        margin-left: 10px;
+    }
+    .card .imagem-card{
+        width: 70px;
+        height: 130px;
+        margin-top: 3px;
+    }
+    .imagem-card{
+        margin: -10px;
+        margin-left: 175px;
+    }
+    .comentario-um{
+        font-size: 11px;
+    }
+    #img-sobre{
+        width: 100px;
+        height: 100px;
+        margin-left: -290px;
+    }
+    .titulo-sobre-nos{
+        padding-top: 140px;
+        margin-left: -325px;
+        font-size: min(17px, 5vw);
+    }
+    #empresa{
+        margin-left: -1850px;
+        font-size: 15px;
+    }
+    #texto-conteudo{
+        margin-top: 210px;
+        margin-left: 190px ;
+        font-size: 10px;
+        width: 150px;
+       
+    }
+    #container-detalhes{
+        margin-left: -1430px;
+    }
+    .detalhes{
+        width: 5px;
+        height: 255px;
+    }
+    .detalhes-dois{
+        width: 250px;
+        height: 5px;
+        margin-left: 1450px;
+        margin-top: 350px;
+    }
+    .submenu a{
+        font-size: 13.5px;
+        padding-left: 3px;
+    }
+    #contatos{
+        width: 280px;
+        height: 390px;
+    }
+    .inputs{
+        padding-left: 170px;
+        font-size: 13px;
+        padding-top: 120px;
+       
+    }
+    .enviar-botao{
+        margin-left: 180px;
+        width: 90px;
+        height: 30px;
+        font-size: 15px;
+    }
+    #imagem-contatos{
+        left:9%;
+        margin-top: 920px;
+    }
+    .img{
+        margin-left: 5px;
+        height: 60px;
+     }
+     #redes-sociais{
+        width: 165px;
+        height: 390px;
+        margin-left: 5px;
+    }
+    .imagem-social{
+        width: 13px;
+        height: 13px;
+        margin-top: 30px;
+    }
+    .nome-social{
+        padding-left: 3px;
+        font-size: 11px;
+    } 
+    #instagram{
+        padding-left: 5px;
+        font-family: 'Outfit', sans-serif;
+    }
+    .contatos-titulo{
+        font-size: 13px;
+        font-family: 'Oswald', sans-serif;
+        padding-left: 5px;
+    }
+    input{
+        width: 100px;
+        height: 30px;
+        font-size: 8px;
+        
+    }
+   
+}
+@media screen and (max-width: 350px){
+    #imagem-contatos{
+        left:3%;
+        margin-top: 920px;
+    }
+
+}
+
 @media screen and (max-width: 320px){
     #retangulo{
         height: 200px;
@@ -999,6 +1373,10 @@ footer{
     .submenu a{
         font-size: 13.5px;
         padding-left: 3px;
+    }
+    #imagem-contatos{
+        left:1%;
+        margin-top: 920px;
     }
 
 }
